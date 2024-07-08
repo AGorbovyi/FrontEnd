@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-block {
+    background-color: aqua;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: left;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.block-item {
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    box-sizing:border-box;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 25px;
+}
+
+.block1 p {
+    background-color: bisque;
+
+}

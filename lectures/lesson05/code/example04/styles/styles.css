@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.red {
+    background-color: coral;
+    width: 100%;
+    height: 30vh;
+}
+.blue {
+    height: 150px;
+    background-color: aqua;
+
+}
+
+.green {
+    height: 100%;
+    width: 100px;
+    background-color: green;
+}
+
+.parent {
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+    margin: 0 0;
+    position: relative;
+}
+
+.block {
+    height: 100px;
+    width: 100px;
+}
+
+.block1 {
+    background-color: red;
+    position: relative;
+    left: 20px;
+}
+
+.block2 {
+    background-color: blueviolet;
+    position: absolute;
+    top: -130px;
+    left: 30px;
+    border-radius: 50%;
+}
+
+.block3 {
+    background-color: orange;
+}
